@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body { background: #2F4F4F;
+ color: #D3D3D3;
+
+ font-size: 18px;
+ font-weight: normal;
+ font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited{
+  color:grey;
+}
+
+.foto {
+    margin-right: 20px;
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0 0 0);
+}
+
+.info p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  margin: 10px;
+}
+ .info {
+   display: flex;
+   margin-bottom: 20px;
+ }
+
+  @media (max-width: 500px) {
+    .info {
+      text-align: center;
+      display: block;
+    }
+  }
+
+ .info-text {
+   margin-left: 40px;
+ }
+
+ .info-text h4 {
+   margin-bottom: 10px;
+ }
+  /* font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase; */
+
+
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.фон-блока-серый1 {background:  #DCDCDC }
+.фон-блока-серый2 {background:  #D3D3D3 }
+.фон-блока-серый3 {background:  #C0C0C0 }
+
+.card {
+  color: black;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+  .list {
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+
+  .list li {
+    color: green;
+    margin-bottom: 5px;
+  }
+
+   .table {
+     width: 100%;
+   }
+
+   .table td {
+     padding-bottom: 10px;
+   }
+
+   /* .table td:nth-child(2),
+   .table td:nth-child(3) {
+     color: green;
+   } */
+
+    /* .table tr:nth-child(odd)(even) {
+      background: red;
+    } */
+
+    .linklist {
+      max-width: 300px;
+      margin: auto;
+      list-style: none;
+      padding-bottom: 15px;
+    }
+
+    .linklist li {
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      padding-right: 10px;
+      border-bottom: 1px dotted black;
+
+    }
+
+    .linklistbg {
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+
+    .contact {
+      width: 500px;
+    }
+
+    .contact h3 {
+      text-align: center;
+    }
+
+    .formgr label {
+      display: block;
+      font-size: 16px;
+      color: black;
+    }
+
+    .formgr input, textarea {
+        margin-bottom: 15px;
+        width: 100%;
+        font-size: 16px;
+        font-style: normal;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid black;
+        color: black;
+        padding: 15px 10px 10px;
+        outline: none;
+    }
+
+    .row {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .row .formgr {
+      width: 50%;
+      margin-right: 20px;
+    }
+
+    .row .formgr:last-child {
+      margin-right: 0;
+    }
+
+    .bottom {
+      background: black;
+      padding: 15px 20px;
+      color: white;
+      border-radius: 20px;
+      border-color: white;
+      box-shadow: 5px 5px 0px;
+      cursor: cell;
+    }
+
+    .bottom:hover {
+      opacity: 0.9;
+    }
+
+/* position */
+
+    /* .position {
+      position: relative;
+      border: 4px solid black;
+      margin-top: 40px;
+      padding: 20px;
+      height: 200px;
+    }
+
+    .box {
+      position: absolute;
+      bottom: 0;
+      width: 50px;
+      height: 50px;
+      background: lightcoral;
+    } */
+
+    /* .box2 {
+      position: fixed;
+      bottom: 50px;
+      right:  50px;
+      border-radius: 30%;
+      width: 100px;
+      height: 50px;
+      background: white;
+    } */
+
+    .back input {
+      position: fixed;
+      bottom: 50px;
+      left: 50px;
+      border-radius: 50%;
+      padding: 15px 15px;
+      background: black;
+      color: white;
+      box-decoration-break: clone;
+    }
